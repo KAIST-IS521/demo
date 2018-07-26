@@ -1,0 +1,10 @@
+service echo_service
+{
+    flags = REUSE
+    socket_type = stream
+    wait = no
+    user = root
+    server = /src/echo
+    disable = no
+    port = 4000
+}
