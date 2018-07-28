@@ -12,10 +12,6 @@ int main()
         scanf("%s", buf);
         printf("%s\n", buf);
         fflush(stdout);
-        if(!strcmp(buf, "bug"))
-        {
-            system("/bin/sh");
-        }
     }
     return 0;
 }
